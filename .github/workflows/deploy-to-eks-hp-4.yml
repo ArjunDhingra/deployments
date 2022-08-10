@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [feat/HP-5]
+    branches: [APISERO-43]
     
 name: Get Github Release Data
 jobs:
@@ -14,8 +14,8 @@ jobs:
         id: latest_version
         uses: abatilo/release-info-action@v1.3.0
         with:
-          owner: prashant-demo110
-          repo: release_management_poc
+          owner: ArjunDhingra
+          repo: deployments
       - name: Example of consumption of the output
         run: |
           owner="prashant-demo110"
