@@ -9,7 +9,7 @@ This repository contains source code for a basic Node.js application that can be
 * [Rancher Desktop](https://rancherdesktop.io/) (for local K8s development)
 * [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) (to create K8s cluster with IaC)
 
-## Folder Structures
+## Folder Structure
 
 ```
 ├── Dockerfile
